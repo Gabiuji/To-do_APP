@@ -1,5 +1,7 @@
 package com.example.to_do.repository;
 
-public class TarefaRepository {
-    
+import com.example.to_do.model.Tarefa;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface TarefaRepository extends JpaRepository<Tarefa, Long> {
 }
